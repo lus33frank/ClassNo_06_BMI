@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">No:06_BMI(BMI計算器)</string>
+    <string name="Height_Kilograms">體重(公斤)：</string>
+    <string name="Height_hint">請輸入身高</string>
+    <string name="Height">身高：</string>
+    <string name="Weight_Meters">身高(公尺)：</string>
+    <string name="Weight_hint">請輸入體重</string>
+    <string name="Weight">體重：</string>
+    <string name="BMI">BMI值：</string>
+    <string name="Calculate">計算 BMI 值</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tw.com.frankchang.houli.classno_06_bmi.MainActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_16">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="wrap_content"
+            android:layout_weight="4.5"
+            android:text="@string/Height_Kilograms"
+            android:textSize="@dimen/TextSize"
+            android:textColor="@color/Blue"/>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="wrap_content"
+            android:layout_weight="5.5"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text=""
+            android:hint="@string/Weight_hint"
+            android:textSize="@dimen/TextSize"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_10">
+
+        <TextView
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="wrap_content"
+            android:layout_weight="4.5"
+            android:text="@string/Weight_Meters"
+            android:textSize="@dimen/TextSize"
+            android:textColor="@color/Blue"/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="wrap_content"
+            android:layout_weight="5.5"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text=""
+            android:hint="@string/Height_hint"
+            android:textSize="@dimen/TextSize"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Calculate"
+        android:textSize="@dimen/TextSize"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_10"
+        android:onClick="OnClick"/>
+</LinearLayout>
